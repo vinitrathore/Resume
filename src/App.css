@@ -1,23 +1,89 @@
-.App{
-background-color: rgb(245, 239, 239);
-  height: 100rem;
-  width: 100%;
+.App {
+  background-color: rgb(245, 239, 239);
   display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  margin-top: 1rem;
+  height: 52rem;
+  border-radius: 3rem;
 }
-.leftside{
-  height: 100rem;
-  background-color: rgb(184, 184, 235);
-  width: 30%;
-  align-items: center;
-  justify-content: center;
+
+/* Media query for tablets (width between 768px and 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .App {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 40rem;
+    flex-direction: row; /* You can change to column if needed */
+  }
 }
-.rightside{
-  height: 100rem;
-  background-color: rgb(234, 234, 243);
-  width: 70%;
-  align-items: center;
-  justify-content: center;
+
+/* Media query for mobile phones (width up to 767px) */
+/* @media (max-width: 767px) {
+  .App {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    height: 30rem;
+    flex-direction: column;
+  }
+} */
+
+/* Media query for very small mobile devices (width up to 480px) */
+/* @media (max-width: 480px) {
+  .App {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    height: 25rem;
+    flex-direction: column;
+  }
+} */
+
+.left{
+  height: 100%;
+  width: 34%;
+  border-radius: 3rem 0 0 3rem;
+  background: rgb(69, 72, 241);
+  
+  
+}
+.right{
+  height: 100%;
+  width: 66%;
+  border-radius: 3rem 0 0 3rem;
+  background: rgb(219, 230, 219);
+}
+.image{
+background: rgb(69, 72, 241);
+border-radius: 3rem 0 0 0;
+align-items: center;
+justify-content: center;
+
+}
+.contact{
+/* background: red; */
+align-items: center;
+justify-content: center;
+}
+.education{
+background: white;
+}
+.skill{
+background: white;
+}
+.profile{
+background: white;
+}
+.work{
+background: white;
+}
+.project{
+background: white;
+}
+.reference{
+background: white;
 }
