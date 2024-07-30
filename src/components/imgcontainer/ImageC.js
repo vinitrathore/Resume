@@ -5,7 +5,7 @@ import logo from "../../../src/img/vinit.jpg";
 function ImageC() {
   return (
     <div className="imgbg">
-      <img src={logo} alt="vinit"  className="img"/>
+      <img src={logo} alt="vinit" className="round" />
     </div>
   );
 }

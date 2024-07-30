@@ -4,20 +4,20 @@ import "./contact.css";
 function Contact() {
   return (
     <div className="contact">
-      <div className="heading">Contact</div>
-      <div className="seperation"></div>
-      <div className="main">
-        <div className="phone">
-          <div className="phoneheading">Phone:--</div>
-          <div className="phonename">9648201277</div>
+      <h1 className="heading">Contact</h1>
+      <div className="separator"></div>
+      <div className="contact-details">
+        <div className="contact-item">
+          <h2 className="contact-label">Phone:</h2>
+          <p className="contact-info">9648201277</p>
         </div>
-        <div className="email">
-          <div className="emailheading">Email:--</div>
-          <div className="emailname">Vinitrathore1277@gmail.com</div>
+        <div className="contact-item">
+          <h2 className="contact-label">Email:</h2>
+          <p className="contact-info">Vinitrathore1277@gmail.com</p>
         </div>
-        <div className="address">
-          <div className="addressheading">Address:--</div>
-          <div className="addressname">Airport , Lucknow India</div>
+        <div className="contact-item">
+          <h2 className="contact-label">Address:</h2>
+          <p className="contact-info">Airport, Lucknow, India</p>
         </div>
       </div>
     </div>
