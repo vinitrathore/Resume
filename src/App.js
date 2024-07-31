@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import img from "../src/img/personal.png";
+import img from "../src/img/vinit.jpg";
 
 function App() {
   return (
