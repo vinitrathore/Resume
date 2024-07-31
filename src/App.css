@@ -83,7 +83,7 @@
 /* Small devices (phones, up to 480px) */
 @media (max-width: 480px) {
   .App {
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     height: 100vh;
   }
   .left,
