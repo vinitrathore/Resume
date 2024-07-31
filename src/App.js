@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import img from "../src/img/vinit121.png";
+import { FaGithub } from "react-icons/fa6";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
             <h2>Contact</h2>
             <div className="underline"></div>
             <div className="emailc">
+              <div className="icon">
+                
+              </div>
               <div className="email">Email:-</div>
               <div className="emailmatter">Vinitrathore1277@gmail.com</div>
               <div className="email">Mobile:-</div>
@@ -49,7 +53,7 @@ function App() {
               <div className="email">Playing Badminton</div>
               <div className="email">Listening Songs</div>
               <div className="email">Internet Surfing</div>
-              <div className="email">Reel Watching</div>
+              {/* <div className="email">Reel Watching</div> */}
             </div>
           </div>
         </div>
@@ -70,15 +74,18 @@ function App() {
           <div className="name">
             <div className="fname">Vinit Kumar</div>
             <div className="lname">Rathore</div>
-            <a
-              class="glink"
-              href="https://www.github.com/vinitrathore"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://www.github.com/vinitrathore
-            </a>
-            
+            <div className="lunk">
+              <FaGithub />
+
+              <a
+                class="glink"
+                href="https://www.github.com/vinitrathore"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.github.com/vinitrathore
+              </a>
+            </div>
           </div>
           <div className="profile">
             <h2>Profile</h2>
